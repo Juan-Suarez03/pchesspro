@@ -1,0 +1,21 @@
+.Main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-main-container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .Main-login{
+        margin-top: 10rem;
+    }
+}

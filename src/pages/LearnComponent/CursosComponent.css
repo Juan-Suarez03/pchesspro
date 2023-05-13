@@ -1,0 +1,11 @@
+.Main-learn {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-learn-container {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

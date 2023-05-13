@@ -1,0 +1,18 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-container {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .Main-container{
+        flex-direction: column;
+    }
+
+}

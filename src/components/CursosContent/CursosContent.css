@@ -1,0 +1,351 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+
+}
+
+.hero {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+.aside-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    width: 33%;
+    height: auto;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.aside-title {
+    width: 343px;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cursos-container {
+    justify-content: center;
+    width: 77%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.user-container {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.user-welcome {
+    color: var(--light-grey);
+    font-size: var(--xl);
+    font-weight: 500;
+}
+
+.user-levelup {
+    display: flex;
+    width: 33%;
+    height: 30px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    font-size: var(--xs);
+    line-height: 0;
+    border: 1px solid var(--primary);
+}
+
+.curso-title {
+    color: var(--light-grey);
+    font-size: var(--lg);
+    font-weight: 600;
+}
+.curso-title-h1 {
+    color: var(--primary);
+    font-size: var(--xl);
+    font-weight: 600;
+    border-bottom: 1px solid var(--primary);
+    padding-top: 1rem;
+}
+
+.curso-info{   
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px;
+    gap: 8px;
+    
+    width: 100%;
+    height: auto;
+    
+        border-bottom: 1px solid #F2B705;
+
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.curso-description{
+    color: var(--light-grey);
+    word-wrap: break-word;
+}
+
+.curso-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    justify-content: space-between;
+    padding: 8px 16px;
+    gap: 8px;
+    height: auto;
+}
+
+.curso-item-left{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        width: 80%;
+        height: auto;
+}
+
+.curso-item-title{
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0;
+}
+
+.curso-item-description{
+    margin: 0;
+    font-weight: 400;
+        font-size: 12px;
+}
+
+.progress-bar{
+    position: relative;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid var(--secondary);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progress-width {
+    display: flex;
+    z-index: 0;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: var(--primary);
+}
+
+
+.corona{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.number{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.ended{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.curso-title-ended {
+    display: flex;
+    color: var(--light-grey);
+    font-size: var(--xxl);
+    font-weight: 600;
+    justify-content: center;
+}
+
+.curso-description-ended {
+    display: flex;
+    color: var(--light-grey);
+    word-wrap: break-word;
+}
+
+.button--game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 112px;
+    height: 40px;
+    background-color: var(--primary);
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button--game:hover {
+    transform: scale(1.03);
+    background-color: var(--complementary);
+    color: var(--light-grey);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+
+
+.previus-know{
+    margin-top: 1rem;
+    border: 1px solid var(--primary);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.elipse{
+    margin: 0px 0px 10px 11px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.curso-title-know{
+    margin: 10px 0px 2px 12px;
+    font-size: 20px;
+    display: flex;
+    color: var(--primary);
+    font-size: var(--lg);
+    font-weight: 600;
+}
+
+.curso-description-know{
+    display: flex;
+    color: var(--primary);
+    word-wrap: break-word;
+
+}
+
+.best-student-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid var(--primary);
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container{
+        width: 100%;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aside-component{
+        width: 90%;
+        padding: 0px;
+    }
+    .number{
+        padding-bottom: 4rem;
+    }
+    .user-levelup{
+        line-height: 50px;
+    }
+    .progress-bar{
+        padding: 10px 0px 10px 0px ;
+    }
+    .cursos-container{
+        width: 90%;
+    }
+
+    .curso-item{
+        height: auto;
+    }
+    
+    .curso-item-img{
+        width: 15%;
+        height: 100%;
+    }
+
+        .button--game {
+            font-size: 12px;
+            height: auto;
+            background-color: var(--primary);
+            cursor: pointer;
+            transition-duration: .5s;
+        }
+}
